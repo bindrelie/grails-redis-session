@@ -3,6 +3,10 @@ grails.project.test.class.dir = "target/test-classes"
 grails.project.test.reports.dir = "target/test-reports"
 grails.project.target.level = 1.6
 grails.project.dependency.resolver = "maven"
+
+//For RC use only
+grails.project.repos.ow.url = "http://artifactory.owteam.com/artifactory/ow-v2"
+
 grails.project.dependency.resolution = {
     // inherit Grails' default dependencies
     inherits("global") {
